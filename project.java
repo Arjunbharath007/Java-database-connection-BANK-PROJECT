@@ -1,4 +1,3 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -226,8 +225,7 @@ public class project {
                      }
                      case 'd': {
                          System.out.println("Exited");
-                         return 
-                         		;
+                         return ;
                      }
                      default:
                          System.out.println("Wrong choice");
@@ -243,8 +241,5 @@ public class project {
      } catch (Exception e) {
          System.out.println(e);
      }
-
-  
  }
-
 }
